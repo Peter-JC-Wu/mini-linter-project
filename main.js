@@ -20,7 +20,7 @@ console.log(storyWords);
 const betterWords = storyWords.filter(function (word) {
   if (!unnecessaryWords.includes(word)) {
     return word;
-  }
+  };
 });
 
 console.log(betterWords);
